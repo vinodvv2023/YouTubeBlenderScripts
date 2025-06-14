@@ -1,0 +1,15 @@
+{
+  "window_title": "Video Transcript & Blender VSE Tool",
+  "choose_video_folder": "Choose Video Folder",
+  "choose_transcript": "Choose Transcript to View",
+  "select_blender_project": "Select Blender Project File",
+  "update_text_position": "Update Text Position",
+  "reset_text_position": "Reset Text Position",
+  "render_video": "Render Video",
+  "add_word": "Add Word",
+  "remove_word": "Remove Word",
+  "top": "Top",
+  "bottom": "Bottom",
+  "input_text": "Input Text",
+  "default_api_url": "http://localhost:8000/transcribe/"
+}
