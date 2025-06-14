@@ -1,6 +1,28 @@
-# Video Transcript & Blender VSE Tool
+# Video Transcript & Blender VSE Tool - for YouTubers to create subtitles
 
-A cross-platform GUI tool to process videos, transcribe them via API, and automate Blender VSE workflows.
+A cross-platform GUI tool to process videos from a local folder, transcribe them via API on local machine, and automate Blender VSE workflows.
+
+## Project Structure
+Project Structure
+root/
+│
+├── gui.py
+├── config.json
+├── requirements.txt
+├── README.md
+├── HELP.md
+├── test_gui.py
+├── sample_usage.md
+├── blender_vse_script.py
+├── update_text_position.py
+├── reset_text_position.py
+├── transcript_api/
+│   ├── app.py
+│   ├── utils.py
+│   └── requirements.txt
+│   └── README.md
+├── videos/
+├── output/
 
 ## Features
 
@@ -11,11 +33,18 @@ A cross-platform GUI tool to process videos, transcribe them via API, and automa
 
 ## Installation
 
+
 ### Prerequisites
 
 - Python 3.11+
 - Blender 4.4 (install from [blender.org](https://www.blender.org/download/))
 - `pip install -r requirements.txt`
+
+### How this works
+
+This project works with the help of Open AI Whisper, hence you will have to run the API on your local machine. Check the README.md in "transcribe_api" folder
+
+You can now follow rest of the steps below to transcript the video and create subtitles in blender and using blender to render your videos.
 
 ### Platform-specific
 
@@ -44,3 +73,7 @@ See `sample_usage.md` for step-by-step instructions.
 ## Testing
 
 Run `python -m unittest test_gui.py`
+
+## RUN Main app
+
+Run `python gui.py`
