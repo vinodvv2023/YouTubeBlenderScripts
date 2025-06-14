@@ -2,6 +2,7 @@
 
 A cross-platform GUI tool to process videos from a local folder, transcribe them via API on local machine, and automate Blender VSE workflows.
 
+The app is designed to transcript the video, edit the transcript, open the blender project file as an app, update the created text position either at top or bottom of the screen inside blender in headless mode, reset text position  inside blender in headless mode and then render the video inside blender in headless mode.  
 
 
 ## Project Structure
@@ -40,7 +41,8 @@ root/
 ### Prerequisites
 
 - Python 3.11+
-- Blender 4.4 (install from [blender.org](https://www.blender.org/download/))
+- Blender 4.4 (install from [blender.org](https://www.blender.org/download/)) Add Blender to your PATH
+- Also requires FFMPEG, kindly install and Add FFMPEG to your PATH
 - `pip install -r requirements.txt`
 
 ### How this works
