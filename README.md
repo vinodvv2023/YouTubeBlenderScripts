@@ -1,6 +1,8 @@
-# Video Transcript & Blender VSE Tool - for YouTubers to create subtitles
+# Video Transcript & Blender VSE Tool - A simple tool for YouTubers to create subtitles and export videos with opensource Blender
 
 A cross-platform GUI tool to process videos from a local folder, transcribe them via API on local machine, and automate Blender VSE workflows.
+
+
 
 ## Project Structure
 Project Structure
