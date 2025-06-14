@@ -4,6 +4,7 @@ A cross-platform GUI tool to process videos from a local folder, transcribe them
 
 ## Project Structure
 Project Structure
+```
 root/
 │
 ├── gui.py
@@ -23,7 +24,7 @@ root/
 │   └── README.md
 ├── videos/
 ├── output/
-
+```
 ## Features
 
 - Select video folders and process all videos
